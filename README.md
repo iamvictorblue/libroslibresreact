@@ -30,7 +30,7 @@ A mobile app built with React Native that lets users manage their book collectio
 ### Prerequisites
 - Node.js (v14+)
 - PostgreSQL
-- Expo CLI
+- React Native w/ Expo CLI
 
 ### Backend Setup
 1. Navigate to the backend directory:
