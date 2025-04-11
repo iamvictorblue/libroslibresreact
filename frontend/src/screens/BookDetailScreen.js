@@ -72,6 +72,12 @@ const BookDetailScreen = ({ navigation, route }) => {
     fetchBook();
   }, [fetchBook]);
 
+  useEffect(() => {
+    navigation.setOptions({
+      headerShown: false,
+    });
+  }, [navigation]);
+
   const handleChange = (field, value) => {
     setFormData({
       ...formData,
